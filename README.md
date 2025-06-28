@@ -30,7 +30,7 @@ O jogo foi desenvolvido com foco em interatividade, aprendizado e acessibilidade
     * Questões de múltipla escolha com 4 alternativas.
     * Exemplos de perguntas: "Qual é o idioma oficial do Japão?", "Como funciona o sistema de educação na Alemanha?", "Quais são as tradições do Dia dos Mortos no México?".
 2.  **Ranking e Pontuação:**
-    * Sistema de pontuação onde respostas corretas aumentam o total do jogador.
+    * Sistema de pontuação dividida em níveis de dificuldade - fácil (5 pontos), média (10 pontos) e difícil (15 pontos) -, onde respostas corretas aumentam o total do jogador.
     * Um ranking persistente registra as melhores pontuações, promovendo uma competição amigável.
 3.  **Interatividade:**
     * Interface de terminal simples e gamificada.
