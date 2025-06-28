@@ -111,7 +111,14 @@ def jogar_quiz():
         resposta_correta_original = pergunta_atual['resposta_correta']
 
         if verificar_resposta(escolha, opcoes_exibidas, resposta_correta_original, pergunta_atual['explicacao']):
-            pontuacao += 10
+            pontuacao_por_nivel = {
+                "facil" = 5,
+                "medio" = 10,
+                "dificil" = 15
+            }
+            #em caso de não identificação de nível, adoção de nível médio por padrão
+            nivel = pergunta_atual.get("nivel","medio").lower()
+            pontuacao += pontuacao_por_nivel.get(nivel,10)
 
         input(f"\n{AMARELO}Pressione Enter para continuar...{RESET}")
 
